@@ -1,0 +1,10 @@
+.navbarMain{
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25px;
+
+}
