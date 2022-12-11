@@ -25,10 +25,10 @@ const Navbar = () => {
     <>
       <div className={styles.navbarMain}>
         <div>
-          <p>Yogin's Contact List</p>
+          <p style={{fontSize:"24px" , fontWeight:"bold"}}>Yogin's Contact List</p>
         </div>
         <div>
-          <Button variant="outlined" onClick={(e)=>handleAddContact(true)}>
+          <Button  variant="contained" onClick={(e)=>handleAddContact(true)}>
             Add Contact
           </Button>
         </div>

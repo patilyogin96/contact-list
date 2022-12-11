@@ -2,3 +2,9 @@
     padding: 50px;
 
 }
+
+.buttonGaps{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
